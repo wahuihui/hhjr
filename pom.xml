@@ -56,7 +56,6 @@
                 <scope>import</scope>
             </dependency>
 
-
             <!--Spring Cloud Alibaba-->
             <dependency>
                 <groupId>com.alibaba.cloud</groupId>

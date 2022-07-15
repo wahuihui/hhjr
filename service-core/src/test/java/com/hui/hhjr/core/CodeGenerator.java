@@ -30,7 +30,7 @@ public class CodeGenerator {
         GlobalConfig globalConfig = new GlobalConfig();
         String projectPath = System.getProperty("user.dir");
         globalConfig.setOutputDir(projectPath + "/src/main/java");
-        globalConfig.setAuthor("AoHui");
+        globalConfig.setAuthor("");
         globalConfig.setOpen(false);//生成后是否打开资源管理器
         globalConfig.setServiceName("%sService");//去掉Service接口的首字母
         globalConfig.setIdType(IdType.AUTO);//主键策略
